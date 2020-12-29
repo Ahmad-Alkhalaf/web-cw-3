@@ -11,10 +11,13 @@ p{
 .square{
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 .red:hover{
         background-color: red;
+        position: relative;
+        z-index: 0; 
 }
      
 
@@ -24,4 +27,11 @@ p{
 
 .green:hover{
     background-color: green;
+}
+
+.img1{
+    z-index: -1;
+    width: 100%;
+    position: relative;
+    opacity: 0.5;
 }
